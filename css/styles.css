@@ -23,6 +23,7 @@ body {
   background-color: var(--brand-background-color);
   color: var(--main-color-text);
 }
+
 /* visually-hidden */
 .visually-hidden {
   position: absolute;
@@ -230,4 +231,134 @@ body {
 .btn-portfolio:focus {
   background-color: #404bbf;
   color: #fff;
+}
+
+/* Location of elements on the page */
+
+/* selectors styles */
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+/* container */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1158px;
+  padding: 0 15px;
+}
+.section {
+  padding: 120px 0;
+}
+.hero-title {
+  margin-bottom: 48px;
+}
+.background-clr-sec-one {
+  padding: 188px 0;
+}
+.title-section-three {
+  padding-bottom: 72px;
+}
+.title-section-four {
+  padding-bottom: 72px;
+}
+/* header-posiition */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-cont-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 76px;
+}
+.header-list-menu {
+  display: flex;
+  gap: 30px;
+  padding: 24px 0;
+}
+.header-nav-link {
+  padding: 24px 0;
+}
+/* hero-section-position */
+.hero-title {
+  margin: 0 auto;
+  width: 496px;
+}
+.buttons-hero-position {
+  margin-top: 40px;
+  padding: 16px 32px;
+}
+.hero-sec-pos {
+  text-align: center;
+}
+/* section-two-position */
+.section-two-container {
+  display: flex;
+}
+.sec-two-list {
+  display: flex;
+}
+.sec-two-list > li {
+  flex-basis: calc((100% - 72px) / 4);
+}
+/* section-three-position */
+.list-sec-three {
+  display: flex;
+  gap: 24px;
+}
+.title-section-three {
+  text-align: center;
+}
+/* section-four-position */
+.title-section-four {
+  text-align: center;
+}
+.cards-team-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.team-cards-items {
+  text-align: center;
+  padding: 32px 16px;
+}
+/* footer-position */
+.footer-text {
+  width: 264px;
+  margin-top: 16px;
+}
+.footer-position {
+  padding: 100px 0;
+}
+
+/* Portfolio-page*/
+.portfolio-list-buttons {
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  gap: 24px;
+  justify-content: center;
+}
+.btn-portfolio {
+  padding: 12px 24px;
+}
+.portfolio-list-elem {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  padding-bottom: 48px;
 }
