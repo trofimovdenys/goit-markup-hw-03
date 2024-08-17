@@ -238,6 +238,16 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
+
+.sec-two-list {
+  display: flex;
+ 
+}
+
+.cont-sec-two {
+  width: calc ((100%-72px*24) /4)
+} 
+
 /* section three */
 .title-section-three {
   font-weight: 700;
