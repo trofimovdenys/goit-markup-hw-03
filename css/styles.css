@@ -164,6 +164,12 @@ img {
   color: var(--focus-shift);
 }
 /* section one */
+
+.section-hero-position {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .background-clr-sec-one {
   background-color: var(--secondary-background-color);
 }
@@ -177,7 +183,7 @@ img {
   }
 
   .hero-margin {
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -210,24 +216,28 @@ img {
  border-radius: 4px;
  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
  border:transparent;
+ min-width: 169px;
 }
 
 
 /* section two */
-.title-section-two {
+
+/* .title-section-two {
   font-weight: 700;
   color: var(--dark-bold-text-color);
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
   margin-bottom: 2px;
-}
+} */
+
 .heading-advantages {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-bold-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .description-advantages {
   letter-spacing: 0.02em;
@@ -247,9 +257,6 @@ img {
   display: flex;
 } 
 
-.title-sec-two-pos {
-  margin-bottom: 8px;
-}
 
 /* section three Our team */
 .background-clr-sec-three {
@@ -280,6 +287,7 @@ margin-bottom: 72px;
   line-height: 1.2;
   color: var(--dark-bold-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-text {
   line-height: 1.5;
@@ -287,7 +295,7 @@ margin-bottom: 72px;
 }
 
 .text-under-team-card {
-padding: 32px 16px;
+padding: 32px 0px;
 text-align: center;
 background-color: #fff;
 border-radius: 0 0 4px 4px;
@@ -325,6 +333,7 @@ border-radius: 0 0 4px 4px;
   line-height: 1.2;
   color: var(--dark-bold-text-color);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .category-name-projects {
   letter-spacing: 0.02em;
@@ -332,18 +341,12 @@ border-radius: 0 0 4px 4px;
   color: var(--main-color-text);
 }
 
-.title-portfolio-text{
-margin-bottom: 8px;
-}
-
 .title-section-four {
   margin-bottom: 72px;
 }
 
 .text-under-portfolio-card {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
@@ -380,6 +383,6 @@ margin-bottom: 8px;
 }
 
 .footer-logo-pos {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
